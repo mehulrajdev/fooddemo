@@ -43,6 +43,34 @@ a {
   color: rgb(228, 163, 44);
 }
 
+#side-drawer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(29, 26, 27);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#side-drawer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 4rem 1rem;
+}
+
+#side-drawer li{
+    margin: 1rem 0;
+}
+
+#side-drawer a{
+    color: rgb(253, 259, 213);
+    font-size: 2rem;
+}
+
 main h1 {
   text-align: center;
   color: rgb(238, 164, 80);
@@ -83,6 +111,9 @@ main h1 {
 .menu-btn{
     width: 3rem;
     height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .menu-btn span{
