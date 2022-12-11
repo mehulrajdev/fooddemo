@@ -80,6 +80,17 @@ main h1 {
   padding: 16px;
 }
 
+.menu-btn{
+    width: 3rem;
+    height: 3rem;
+}
+
+.menu-btn span{
+    width: 100%;
+    height: 3px;
+    background-color: white ;
+}
+
 .btn {
   background-color: rgb(228, 157, 44);
   color: white;
@@ -103,3 +114,5 @@ main h1 {
     font-size: 1.5rem;
   }
 }
+
+
