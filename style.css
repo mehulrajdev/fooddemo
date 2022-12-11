@@ -43,64 +43,63 @@ a {
   color: rgb(228, 163, 44);
 }
 
-main h1{
-    text-align: center;
-    color: rgb(238, 164, 80);
-    font-size: 48px;
+main h1 {
+  text-align: center;
+  color: rgb(238, 164, 80);
+  font-size: 48px;
 }
 
-#latest-products{
-    width: 80%;
-    margin: 50px auto;
+#latest-products {
+  width: 80%;
+  margin: 50px auto;
 }
 
-#latest-products ul{
-    display: grid;
-    grid-template-columns:  1fr 1fr;
-    gap: 16px ;
-    margin: 0;
-    padding: 0;
+#latest-products ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-.food-items{
-    background-color: rgb(228, 206, 182);
-    border-radius: 6px;
-    overflow: hidden;
+.food-items {
+  background-color: rgb(228, 206, 182);
+  border-radius: 6px;
+  overflow: hidden;
 }
 
-.food-items img{
-    height: 240px;
-    width: 100%;
-    object-fit: cover;
-    list-style: none;
+.food-items img {
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+  list-style: none;
 }
 
-.food-item-content{
-    text-align: center;
-    padding: 16px;
+.food-item-content {
+  text-align: center;
+  padding: 16px;
 }
 
-.btn{
-    background-color: rgb(228, 157, 44);
-    color: white;
-    border-radius: 4px;
-    padding: 8px 24px;
+.btn {
+  background-color: rgb(228, 157, 44);
+  color: white;
+  border-radius: 4px;
+  padding: 8px 24px;
 }
 
-.btn:hover{
-    background-color: rgb(221, 134, 34);
+.btn:hover {
+  background-color: rgb(221, 134, 34);
 }
 
-@media (max-width:768px) {
-    #latest-products ul{
-        grid-template-columns: 100%;
+@media (max-width: 768px) {
+  #latest-products ul {
+    grid-template-columns: 100%;
+  }
+  #main-header nav {
+    display: none;
+  }
 
-    }
-    #main-header nav{
-        display: none;
-    }
-    
-    main h1{
-        font-size: 1.5rem;
-    }
+  main h1 {
+    font-size: 1.5rem;
+  }
 }
