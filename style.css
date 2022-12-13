@@ -108,6 +108,7 @@ main h1 {
   background-color: rgb(228, 206, 182);
   border-radius: 6px;
   overflow: hidden;
+  transition: transform 2s ease-out 1s;
 }
 
 .food-items img {
