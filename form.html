@@ -1,83 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="form.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Contact Us</h1>
+      <h1>Contact Us</h1>
     </header>
     <main>
-        <form action="" method="GET">
-            <section>
-                <h2>The Form</h2>
-                <ul>
-                    <li>
-                        <label for="username">Your Name</label>
-                        <input type="text" id="username" name="username" required>
-                    </li>
-                    <li>
-                        <label for="email">Your Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </li>
-                    <li>
-                        <label for="phone">Mobile Number</label>
-                        <input type="tel" id="phone" name="phone" required>
-                    </li>
-                    <li>
-                        <label for="message">Your Message</label>
-                        <textarea id="message" name="message"  required minlength="10" maxlength="100" 
-                        rows="6"></textarea>
-                    </li>
-                </ul>
-            </section>
+      <form action="" method="GET">
+        <section>
+          <h2>The Form</h2>
+          <ul>
+            <li>
+              <label for="username">Your Name</label>
+              <input type="text" id="username" name="username" required />
+            </li>
+            <li>
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required />
+            </li>
+            <li>
+              <label for="phone">Mobile Number</label>
+              <input type="tel" id="phone" name="phone" required />
+            </li>
+            <li>
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                required
+                minlength="10"
+                maxlength="100"
+                rows="6"
+              ></textarea>
+            </li>
+          </ul>
+        </section>
 
-            <section>
-               
-                    <label for="find">How did you find us ?</label>
-                    <select name="find" id="find" required>
-                        <option value="search">Web Search</option>
-                        <option value="friend">Your Friend</option>
-                        <option value="other">Other</option>
-                    </select>
-                
-            </section>
+        <section>
+          <label for="find">How did you find us ?</label>
+          <select name="find" id="find" required>
+            <option value="search">Web Search</option>
+            <option value="friend">Your Friend</option>
+            <option value="other">Other</option>
+          </select>
+        </section>
 
-            <section>
-                <h2>How should we reply ?</h2>
-                <ul>
-                    <li class="inline-control">
-                        <input type="radio" name="reply" id="reply-phone" value="phone" required>
-                        <label for="reply-phone">Call me</label>
-                    </li>
-                    <li class="inline-control">
-                        <input type="radio" name="reply" id="reply-email" value="email" required>
-                        <label for="reply-email">Email me</label>
-                    </li>
-                    <li class="inline-control">
-                        <input type="radio" name="reply" id="reply-not" value="not" required>
-                        <label for="reply-not">Don't Reply</label>
-                    </li>
-                </ul>
-            </section>
+        <section>
+          <h2>How should we reply ?</h2>
+          <ul>
+            <li class="inline-control">
+              <input
+                type="radio"
+                name="reply"
+                id="reply-phone"
+                value="phone"
+                required
+              />
+              <label for="reply-phone">Call me</label>
+            </li>
+            <li class="inline-control">
+              <input
+                type="radio"
+                name="reply"
+                id="reply-email"
+                value="email"
+                required
+              />
+              <label for="reply-email">Email me</label>
+            </li>
+            <li class="inline-control">
+              <input
+                type="radio"
+                name="reply"
+                id="reply-not"
+                value="not"
+                required
+              />
+              <label for="reply-not">Don't Reply</label>
+            </li>
+          </ul>
+        </section>
 
-            <section class="inline-control">
-                <input type="checkbox" id="accept" name="accept" required>
-                <label for="accept">Accept Terms</label>
-            </section>
+        <section class="inline-control">
+          <input type="checkbox" id="accept" name="accept" required />
+          <label for="accept">Accept Terms</label>
+        </section>
 
-            <section style="text-align: right;">
-                <button type="reset" class="btn-empty">Clear</button>
-                <button type="submit" class="btn-filled">Submit</button>
-            </section>
-
-
-        </form>
+        <section style="text-align: right">
+          <button type="reset" class="btn-empty">Clear</button>
+          <button type="submit" class="btn-filled">Submit</button>
+        </section>
+      </form>
     </main>
-    
-</body>
+  </body>
 </html>
