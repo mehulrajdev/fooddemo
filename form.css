@@ -49,6 +49,7 @@ textarea {
   resize: none;
 }
 
+
 input:focus,
 textarea:focus {
   background-color: rgb(208, 223, 255);
